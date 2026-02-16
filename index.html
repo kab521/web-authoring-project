@@ -1,10 +1,54 @@
 <style>
+html {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+  .container {
+    background-color: #e3dbcd49;
+    padding: 70px; 
+  }
+
+
+  body {
+    margin: 0; 
+    min-height: 200vh; 
+}
+
+.site-header {
+    background-color:  rgb(157, 219, 255);
+    padding: 10px 20px;
+    color: rgb(106, 106, 106);
+    display: flex;
+    font-family: futura;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.site-header a {
+        color: rgb(106, 106, 106);
+
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 10px;
+}
+
+
 h1{
 font-family: futura;
 font-size: 20px;
-background-color: rgb(192, 232, 255);
 color: rgb(106, 106, 106);
-padding: 30px;
+margin-top: -20px;
 }
 
 .trash-groups {
@@ -23,12 +67,27 @@ padding: 30px;
 
 div.one{
     background-color: rgba(192, 232, 255, 0.299);
+    h1 {
+        background-color:rgb(157, 219, 255);
+        padding: 10px;
+        margin-top: -30px;
+    }
 }
 div.two{
     background-color: rgba(192, 232, 255, 0.299);
+        h1 {
+        background-color:rgb(157, 219, 255);
+        padding: 10px;
+        margin-top: -30px;
+    }
 }
 div.three{
     background-color: rgba(192, 232, 255, 0.299);
+        h1 {
+        background-color:rgb(157, 219, 255);
+        padding: 10px;
+        margin-top: -30px;
+    }
 }
 
 p,ul, li, strong, a{
@@ -54,6 +113,12 @@ html{
   text-align: center;
 }
 
+nav a, nav {
+background-color:  rgb(157, 219, 255);
+text-decoration: none;
+padding: 10px;
+}
+
 .gallery-item {
   display: flex;
   flex-direction: column;
@@ -67,13 +132,51 @@ html{
 
     </style>
 
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">KB</div>
+        <nav>
+           <a href="index.html">Latest</a>
+            <a href="profiles.html">Profiles</a>
+            <a href="#archive">Archive</a>
+            <a href="#about">About</a>
+
+        </nav>
+    </header>
+
+
+
+
+
+
+<div class="container">
+  <div class="inner-element">
 <center><h1>Trash of the Week – Week Nine <br> <em>A snapshot of my life in trash</em></h1>
 
+<br>
+<nav>
+<a href="#preface">Preface</a> ☆ 
+<a href="#overview">Overview</a> ☆ 
+<a href="#gallery">Gallery</a> ☆ 
+<a href="#table">Table</a> ☆ 
+<a href="#coda">Coda</a> ☆ 
+</nav>
+<br>
 
 
+<h2 id="preface"></h2>
 <h2>Preface</h2>
-<p>I decided to record a week’s worth of my trash in order to remind myself that what I throw away is a reflection of who I am. Every item, even something as small and ordinary as a napkin, can be tied to a specific moment or event that holds memories and meaning. I chose to focus on the items from this particular week because I enjoy the small stories that come with each piece of trash. They are all stories that may seem insignificant at first but can actually say a lot about my daily life. By collecting and reflecting on these discarded items, I realized how often we mindlessly throw things away without thinking about where they came from or what they represent. This process forces us to be more aware of how much we consume, how frequently we waste things, and how our habits impact the environment. Additionally, reflecting on what and how much we throw away can reveal aspects of our identity. Our trash can show our routines, interests, responsibilities, and lifestyle choices. In some ways, it can even categorize us, offering insight into our age, gender, culture, or occupation. Overall, examining trash turns something overlooked into a meaningful reflection of both personal identity and collective responsibility.</p>
+<p>I decided to record a week’s worth of my trash in order to remind myself that what I throw away is a reflection of who I am. Every item, even something as small and ordinary as a napkin, can be tied to a specific moment or event that holds memories and meaning. I chose to focus on the items from this particular week because I enjoy the small stories that come with each piece of trash. They are all stories that may seem insignificant at first but can actually say a lot about my daily life. By collecting and reflecting on these discarded items, I realized how often we mindlessly throw things away without thinking about where they came from or what they represent. This process forces us to be more aware of how much we consume, how frequently we waste things, and how our habits impact the environment. Additionally, reflecting on what and how much we throw away can reveal aspects of our identity. Our trash can show our routines, interests, responsibilities, and lifestyle choices. In some ways, it can even categorize us, offering insight into our age, gender, culture, or occupation. Overall, examining trash turns something overlooked into a meaningful reflection of both personal identity and collective responsibility.
+    <br><br> If you liked looking at how trash can correlate with something deeper, check out <a href="https://press.uchicago.edu/ucp/books/book/chicago/U/bo197202045.html">Sarah Newman</a>  <a href="https://recyclinginternational.com/commodities/plastics-recycling/vik-muniz-proves-the-true-power-of-trash/26958/">Vik Muniz</a> and  <a href="https://www.nytimes.com/2022/05/30/nyregion/sanitation-department-artist-sto-len.html">Sto Len.</a>
+</p>
 
+<h2 id="overview"></h2>
 <h2 id="sec1">Overview</h2>
 
 <p>
@@ -87,24 +190,24 @@ I divided my trash into three groups:
     <center><h1>The Paper Notes</h1><br>
  </center>
 
-<li>First is my lingustics final cheat sheet. It is a piece of letter sized paper. For my final, we are allowed to one sheet of paper front and back. I printed it out three hours before the exam from the busch student center. I threw it out because I don’t want to me reminded of how stressful that exam was. But I did well on it so all good. </li>
+<li>First is my   <a href="https://en.wikipedia.org/wiki/Paper">linguistics cheat sheet</a>. It is a piece of letter sized paper. For my final, we are allowed to one sheet of paper front and back. I printed it out three hours before the exam from the busch student center. I threw it out because I don’t want to me reminded of how stressful that exam was. But I did well on it so all good. </li>
 <br>
-<li>Second is my note. It is one scrap from a bird notepad that my aunt added in a letter to me a long time ago. I went to an AT&T networking event. I hung it on my whiteboard for like a week and thought i’d address it later but after re-looking at it, none of it makes sense like idk why I wrote “speed” on it… I threw it out for that reason.</li>
+<li>Second is my <a href="https://en.wikipedia.org/wiki/Notebook">notebook note</a>. It is one scrap from a bird notepad that my aunt added in a letter to me a long time ago. I went to an AT&T networking event. I hung it on my whiteboard for like a week and thought i’d address it later but after re-looking at it, none of it makes sense like idk why I wrote “speed” on it… I threw it out for that reason.</li>
 <br>
-<li>This is my sheet music when I auditioned for symphony band. It is a piece of letter sized paper. I got in, but I realized I couldn’t commit to going to practice for three hours twice a week on cook/doug and I have to leave an hour early to get there anyway because bus ride there is also too long like last semester. I threw it out because I no longer need the sheet music.</li>
+<li>This is my   <a href="https://en.wikipedia.org/wiki/Sheet_music">sheet music</a>  when I auditioned for symphony band. It is a piece of letter sized paper. I got in, but I realized I couldn’t commit to going to practice for three hours twice a week on cook/doug and I have to leave an hour early to get there anyway because bus ride there is also too long like last semester. I threw it out because I no longer need the sheet music.</li>
 </div>
 <br>
 
 <div class="three">
     <center><h1>Random Memories</h1><br>
  </center>
-<li>These are the two batteries from my discussion post. My friend couldn’t use my polaroid, opened up the battery compartment and noticed they were degraded, so I threw it out. </li>
+<li>These are the two <a href="https://en.wikipedia.org/wiki/Electric_battery">batteries</a> from my discussion post. My friend couldn’t use my polaroid, opened up the battery compartment and noticed they were degraded, so I threw it out. </li>
 <br>
-<li>This is a paper ticket from a roommate finding event that I went with my roommate because we just wanted the free stuff. They gave out tickets for a raffle, and they email you if you win or not so I threw out my ticket because I don’t need it. </li>
+<li>This is a paper   <a href="https://en.wikipedia.org/wiki/Ticket_(admission)">ticket</a> from a roommate finding event that I went with my roommate because we just wanted the free stuff. They gave out tickets for a raffle, and they email you if you win or not so I threw out my ticket because I don’t need it. </li>
 <br>
-<li>This is a black small sized plastic package from when I ordered a skirt online from depop. it took forever so now I cant wear it because it is literally -10 degrees outside but at least I got it. I threw out the packaging because I don’t need to return it. </li>
+<li>This is a black small sized plastic  <a href="https://en.wikipedia.org/wiki/Packaging">packaging</a>  from when I ordered a skirt online from depop. it took forever so now I cant wear it because it is literally -10 degrees outside but at least I got it. I threw out the packaging because I don’t need to return it. </li>
 <br>
-<li>This is a large rubber band from when I visited home that I put around a big folder that held all of my important information to get my real id. I eventually got it and it worked out but I don’t need a huge rubber band so I threw it out.</li>
+<li>This is a large   <a href="https://en.wikipedia.org/wiki/Rubber_band">rubber band</a> from when I visited home that I put around a big folder that held all of my important information to get my real id. I eventually got it and it worked out but I don’t need a huge rubber band so I threw it out.</li>
 <br></p>
 </div>
 
@@ -112,14 +215,16 @@ I divided my trash into three groups:
 <div class="two">
     <center><h1>Creative Attempts</h1><br>
  </center>
-<li>This is a flashcard folded into a mini origami box. I made it because I got into bullet journaling and I had an idea where I wanted to make a box fold open when I open the page, so I tested it on a flashcard first. I realized it would be smushed too much so I decided to go back to the drawing board and scour pinterest for a different idea to make it happen. Therefore, I threw out my test box. </li>
+<li>This is a   <a href="https://en.wikipedia.org/wiki/Flashcard">flashcard</a> folded into a mini origami box. I made it because I got into bullet journaling and I had an idea where I wanted to make a box fold open when I open the page, so I tested it on a flashcard first. I realized it would be smushed too much so I decided to go back to the drawing board and scour pinterest for a different idea to make it happen. Therefore, I threw out my test box. </li>
 <br>
-<li>This is a piece of paper from my journal. This is very weird but I dreamt about this tiny coffee shop/library twice and I wanted to map it out as fast as possible before I forgot about it and then draw it really nice, but I couldn’t picture the details enough to draw it, so I ripped it out of my journal because I think it looks really bad. </li>
+<li>This is a piece of <a href="https://en.wikipedia.org/wiki/Paper">paper</a>  from my journal. This is very weird but I dreamt about this tiny coffee shop/library twice and I wanted to map it out as fast as possible before I forgot about it and then draw it really nice, but I couldn’t picture the details enough to draw it, so I ripped it out of my journal because I think it looks really bad. </li>
 </div>
 <br>
 
 </div>
 <center>
+    <h2 id="gallery"></h2>
+
 <h2 id="sec2">Gallery</h2>
 <div class="gallery">
   <div class="gallery-item">
@@ -167,6 +272,8 @@ I divided my trash into three groups:
     <p>Note</p>
   </div>
 </div>
+
+    <h2 id="table"></h2>
 
 <h2 id="sec3">Item Data</h2>
 
@@ -296,6 +403,7 @@ font-size: 15px;
   </tbody>
 </table>
 
+    <h2 id="coda"></h2>
 
 
 <h2 id="sec4">Coda</h2>
@@ -307,4 +415,5 @@ font-size: 15px;
 <br><br><br>
 <a href="#top">bring me back to the top!</a>
 
-</center>
+</center>  </div>
+</div>
