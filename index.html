@@ -106,11 +106,12 @@ html{
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap; 
-  gap: 20px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
   text-align: center;
+
 }
 
 nav a, nav {
@@ -128,6 +129,10 @@ padding: 10px;
   font-size: 15px;
 }
 
+fa-solid fa-dumpster-fire{
+    width: 90px;
+    height: 90px;
+}
 
 
     </style>
@@ -136,11 +141,24 @@ padding: 10px;
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KB</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="trashy.png">
+
+    <script src="https://kit.fontawesome.com/712afbf9e6.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <header class="site-header">
-        <div class="logo">KB</div>
+
+<header class="site-header">
+    <div class="logo">
+        KB <i class="fa-solid fa-dumpster-fire"></i>
+    </div>
         <nav>
            <a href="index.html">Latest</a>
             <a href="profiles.html">Profiles</a>
@@ -158,7 +176,6 @@ padding: 10px;
 <div class="container">
   <div class="inner-element">
 <center><h1>Trash of the Week – Week Nine <br> <em>A snapshot of my life in trash</em></h1>
-
 <br>
 <nav>
 <a href="#preface">Preface</a> ☆ 
@@ -227,6 +244,7 @@ I divided my trash into three groups:
 
 <h2 id="sec2">Gallery</h2>
 <div class="gallery">
+
   <div class="gallery-item">
     <img src="https://i.ibb.co/PsxcFtV8/IMG-3364.png" width="200" height="250">
     <p>Ticket</p>
@@ -326,7 +344,7 @@ font-size: 15px;
       <td>Rutgers Honors College</td>
       <td>Free</td>
       <td>1 day</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
     <tr>
       <td>Batteries</td>
@@ -335,7 +353,7 @@ font-size: 15px;
       <td>CVS</td>
       <td>$</td>
       <td>4 years</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
     <tr>
       <td>Rubber Band</td>
@@ -344,7 +362,7 @@ font-size: 15px;
       <td>Staples</td>
       <td>$</td>
       <td>5 months</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
         <tr>
       <td>Packaging</td>
@@ -353,7 +371,7 @@ font-size: 15px;
       <td>A girl from Texas' home</td>
       <td>$$</td>
       <td>1 month</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
         <tr>
       <td>Linguistics Notes</td>
@@ -362,7 +380,7 @@ font-size: 15px;
       <td>Busch Student Center</td>
       <td>$$$ (tuition goes towards printing)</td>
       <td>2 days</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
             <tr>
       <td>Sheet Music</td>
@@ -371,7 +389,7 @@ font-size: 15px;
       <td>Busch Student Center</td>
       <td>$$$ (tuition goes towards printing)</td>
       <td>1 day</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
             <tr>
       <td>Sketch on paper</td>
@@ -380,7 +398,7 @@ font-size: 15px;
       <td>California gift shop</td>
       <td>$$</td>
       <td>4 months</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
             <tr>
       <td>Origami box</td>
@@ -389,7 +407,7 @@ font-size: 15px;
       <td>Staples</td>
       <td>$</td>
       <td>1 week</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
             <tr>
       <td>Note</td>
@@ -398,7 +416,7 @@ font-size: 15px;
       <td>My aunt's house</td>
       <td>Free</td>
       <td>4 months</td>
-      <td>trashcan</td>
+      <td>dorm trashcan <i class="fa-solid fa-trash"></i></td>
     </tr>
   </tbody>
 </table>
